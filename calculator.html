@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html langue = "pt-br">
+<head>
+    <header>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="Calculadora simples">
+    <meta name="description" content="Calculadora simples com html, css e js">
+    <title>Calculadora top</title>
+    <link rel="stylesheet" href="cal.css">
+    <script src="cal.js"></script>
+</header>
+</head>
+
+<body>
+    <div class="uhu">
+    <h1 class="titulo-principal"id="titulo-principal">Welcome to Calculadora</h1>
+    <section class="calculadora"></section>
+    <form action="#" name="calculadora" class="calculadora">
+        <label for="nome"> Nome: </label>
+        <input type="text" name="nome" id="nome" placeholder="Digite seu nome:">
+        <label for="n1"> Valor 1: </label>
+        <input type="number" name="n1" id="n1" placeholder="1° valor:">
+        <label for="n2"> Valor 2: </label>
+        <input type="number" name="n2" id="n2" placeholder="2° valor:">
+       <div class="opcao1">
+        <button value = "+" onclick="calcular(this.value)"> + </button>
+        <button value = "-" onclick="calcular(this.value)"> - </button>
+    </div>
+    <div class="opcao1">
+        <button value = "*" onclick="calcular(this.value)"> * </button>
+        <button value = "/" onclick="calcular(this.value)"> / </button>
+    
+    </div></form>
+</div>
+
+</body>
+</html>
